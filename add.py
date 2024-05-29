@@ -1,4 +1,8 @@
-def add(a,b):
+def add2(a,b):
     res=a+b
     return res
-print(add(20,30))
+def add3(a,b,c):
+    res=a+b+c
+    return res
+print(add2(20,30))
+print(add3(20,30,40))
